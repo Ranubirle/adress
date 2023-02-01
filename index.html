@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .rectangle{
+            position: absolute;
+width: 1728px;
+height: 1677px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+        }
+        .time{
+            position: absolute;
+width: 692.27px;
+height: 144px;
+left: 72px;
+top: 101px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 121px;
+
+color: #000000;
+
+        }
+        .current{
+            position: absolute;
+width: 1241px;
+height: 160px;
+left: 72px;
+top: 287px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 121px;
+
+color: #000000;
+
+        }
+        .group1{
+            
+position: absolute;
+width: 1241px;
+height: 160px;
+left: 72px;
+top: 287px;
+
+        }
+        .enter{
+            position: absolute;
+width: 1241px;
+height: 160px;
+left: 72px;
+top: 1818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 121px;
+
+color: #FFFFFF;
+        }
+        .group2{
+            
+position: absolute;
+width: 1241px;
+height: 160px;
+left: 72px;
+top: 1818px;
+
+        }
+        .name{
+            
+position: absolute;
+width: 669.46px;
+height: 74px;
+left: 126px;
+top: 545px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .lat{
+            
+position: absolute;
+width: 669.46px;
+height: 74px;
+left: 126px;
+top: 654px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .long{
+            
+position: absolute;
+width: 669.46px;
+height: 74px;
+left: 859px;
+top: 666px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .offset{
+            position: absolute;
+width: 669.46px;
+height: 74px;
+left: 126px;
+top: 763px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .second{
+            position: absolute;
+width: 669.46px;
+height: 74px;
+left: 126px;
+top: 872px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .country{
+            position: absolute;
+width: 669.46px;
+height: 74px;
+left: 126px;
+top: 1181px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .post{
+            position: absolute;
+width: 669.46px;
+height: 74px;
+left: 126px;
+top: 1290px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .city{
+            position: absolute;
+width: 669.46px;
+height: 74px;
+left: 126px;
+top: 1393px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .rectangle2{
+            box-sizing: border-box;
+
+position: absolute;
+width: 1585px;
+height: 1120px;
+left: 72px;
+top: 489px;
+
+border: 2px solid #000000;
+
+        }
+        .group3{
+            
+position: absolute;
+width: 1585px;
+height: 1120px;
+left: 72px;
+top: 489px;
+
+        }
+        .rectangle3{
+            position: absolute;
+width: 260.75px;
+height: 58px;
+left: 78px;
+top: 2094px;
+
+background: #FFFFFF;
+
+        }
+        .sub{
+            position: absolute;
+width: 93.46px;
+height: 33px;
+left: 156.46px;
+top: 2106px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+margin-bottom: 30%;
+
+color: #000000;
+
+        }
+        .group4{
+            
+position: absolute;
+width: 260.75px;
+height: 58px;
+left: 78px;
+top: 2094px;
+
+        }
+        .add{
+            
+position: absolute;
+width: 369.43px;
+height: 29px;
+left: 92.96px;
+top: 1999px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+        }
+        .rectangle4{
+            box-sizing: border-box;
+
+position: absolute;
+width: 1579px;
+height: 72px;
+left: 78px;
+top: 1978px;
+
+border: 1px solid #FFFFFF;
+
+        }
+        .group5{
+            position: absolute;
+width: 1579px;
+height: 72px;
+left: 78px;
+top: 1978px;
+
+        }
+        .dst{
+            position: absolute;
+width: 669.46px;
+height: 74px;
+left: 126px;
+top: 975px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .dstsecond{
+            position: absolute;
+width: 669.46px;
+height: 74px;
+left: 126px;
+top: 1078px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+        }
+        .Enter{
+            margin-top: 120%;
+            margin-left: 1%;
+        }
+        #input{
+            margin-left: 5%;
+            
+
+        }
+        #error{
+            color:red;
+        }
+        .container{
+            margin-top: 1800px;
+            margin-left: 200px;
+        }
+        .rectangle4{
+            box-sizing: border-box;
+
+position: absolute;
+width: 1579px;
+height: 72px;
+left: 78px;
+top: 1978px;
+
+border: 1px solid #FFFFFF;
+        }
+        .enteradd{
+            margin-top: 1900px;
+            margin-left: 10px;
+        }
+        #input1{
+            color:red;
+        }
+       
+        
+    </style>
+    <script>
+        let button=document.getElementById('btn');
+
+        
+       
+    
+            
+        
+          if('geolocation' in navigator)
+              {
+       
+        console.log("geolocation is available");
+        navigator.geolocation.getCurrentPosition(position=>{
+            const lat=position.coords.latitude;
+            const long=position.coords.longitude;
+            document.getElementById("lat1").textContent=lat;
+            document.getElementById("long1").textContent=long;
+          
+       })
+       
+    
+   let p= fetch(`https://api.geoapify.com/v1/geocode/reverse?lat=46.73917926727481&lon=2.3276588684885837&format=json&apiKey=d150d7b4e776487a9148ef9c08aa0ff5`);
+   p.then(data=>{
+    return data.json();
+   })
+   .then(result=>{
+    console.log(result);
+    let final=result;
+    document.getElementById("city1").innerText=final.results[0].city;
+    document.getElementById("coun").innerText=final.results[0].country;
+    document.getElementById("lat1").innerText=final.results[0].lat;
+    document.getElementById("long1").innerText=final.results[0].lon;
+    document.getElementById("timezone").innerText=final.results[0].timezone.name;
+    document.getElementById("offstd").innerText=final.results[0].timezone.offset_STD;
+    document.getElementById("offstdsecond").innerText=final.results[0].timezone.offset_STD_seconds;
+    document.getElementById("offdst").innerText=final.results[0].timezone.offset_DST;
+    document.getElementById("offdstsecond").innerText=final.results[0].timezone.offset_DST_seconds;
+    document.getElementById("post1").innerText=final.results[0].postcode;
+    
+
+   })
+   .catch(error=>{
+    console.error(error,"location is not found");
+   })
+}
+const input=document.getElementById("placename").value;
+function myfun(){
+    const input=document.getElementById("placename").value;
+
+   let p= fetch(`https://api.geoapify.com/v1/geocode/search?text=${encodeURIComponent(input)}&apiKey=d150d7b4e776487a9148ef9c08aa0ff5`)
+    if(input=='')
+    {
+        document.getElementById('input1').innerHTML="please enter an adress";
+    }
+p.then(resp => resp.json())
+.then((geocodingResult) => {
+	console.log(geocodingResult);
+    let data=geocodingResult;
+    document.getElementById('city2').innerText=data.features[0].properties.city;
+    document.getElementById('country1').innerText=data.features[0].properties.country;
+    document.getElementById('lat21').innerText=data.features[0].properties.lat;
+    document.getElementById('long21').innerText=data.features[0].properties.lon;
+    document.getElementById('name1').innerText=data.features[0].properties.timezone.name;
+    document.getElementById('postcode1').innerText=data.features[0].properties.postcode;
+    document.getElementById('dstsec').innerText=data.features[0].properties.timezone.offset_DST_seconds;
+    document.getElementById('dst1').innerText=data.features[0].properties.timezone.offset_DST;
+    document.getElementById('off2').innerText=data.features[0].properties.timezone.offset_STD;
+    document.getElementById('stdsec').innerText=data.features[0].properties.timezone.offset_STD_seconds;
+});
+    }
+    myfun();
+
+    
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+    
+    <div class="rectangle1"></div>
+    <p class="time">TimeZone API</p>
+    <p class="current">Your Current Time Zone</p>
+    <div class="group1"></div>
+    
+    <div class="group2"></div>
+    <p class="name">Name Of Timezone:&nbsp;&nbsp;&nbsp;<span id="timezone"></span></p>
+    <p class="lat">Lat:&nbsp;&nbsp;&nbsp;<span id="lat1"></span></p>
+    <p class="long">Long:&nbsp;&nbsp;&nbsp;<span id="long1"></span></p>
+    <p class="offset">Offset STD:&nbsp;&nbsp;&nbsp;<span id="offstd"></span></p>
+    <p class="second">Offset STD Seconds:&nbsp;&nbsp;&nbsp;<span id="offstdsecond"></span></p>
+    <p class="dst">Offset DST :&nbsp;&nbsp;&nbsp;<span id="offdst"></span></p>
+    <p class="dstsecond">Offset DST Seconds:&nbsp;&nbsp;&nbsp;<span id="offdstsecond"></span></p>
+    <p class="country">Country:&nbsp;&nbsp;&nbsp;<span id="coun"></span></p>
+    <p class="post">Postcode:&nbsp;&nbsp;&nbsp;<span id="post1"></span></p>
+    <p class="city">City:&nbsp;&nbsp;&nbsp;<span id="city1"></span></p>
+    <div class="rectangle2"></div>
+    <div class="group3"></div>
+    <div class="rectangle3"></div>
+    <h1 class="enteradd">Enter adress</h1> 
+    <input type="text" placeholder="gk2 new delhi" id="placename" size="50"> 
+    <br><span id=input1></span><br><br>
+    <button id="btn" onclick="myfun()">submit</button><br><br>
+    <h1>Your result</h1>
+    <h3>1.Name of timezone:&nbsp;&nbsp;&nbsp;&nbsp;<span id="name1"></span></h3><br>
+    <h3>2.Lat:<span id="lat21"></span></h3><br>
+    <h3>3.Long:&nbsp;&nbsp;&nbsp;&nbsp;<span id="long21"></span></h3><br>
+    <h3>4.offset STD:&nbsp;&nbsp;&nbsp;&nbsp;<span id="off2"></span></h3><br>
+    <h3>5.offset STD Seconds:&nbsp;&nbsp;&nbsp;&nbsp;<span id="stdsec"></span></h3><br>
+    <h3>6.offset DST:&nbsp;&nbsp;&nbsp;&nbsp;<span id="dst1"></span></h3><br>
+    <h3>7.offset DST seconds:&nbsp;&nbsp;&nbsp;&nbsp;<span id="dstsec"></span></h3><br>
+    <h3> 8.country:&nbsp;&nbsp;&nbsp;&nbsp;<span id="country1"></span><h3><br>
+    <h3>9.postcode:&nbsp;&nbsp;&nbsp;&nbsp;<span id="postcode1"></span></h3><br>
+    <h3>10.city:&nbsp;&nbsp;&nbsp;&nbsp;<span id="city2"></span></h3>
+    
+    
+
+    
+  
+        
+    
+ 
+    
+    
+    
+</body>
+</html>
